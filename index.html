@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A local-only English STAR interview practice tool for CIeNET interview preparation."
+      content="A local-only English interview practice tool for CIeNET interview preparation."
     />
-    <title>English STAR Practice</title>
+    <title>English Interview Practice</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
   </head>
@@ -16,11 +16,11 @@
 
     <div class="app-shell">
       <header class="topbar">
-        <a class="brand" href="#main-content" aria-label="English STAR Practice home">
+        <a class="brand" href="#main-content" aria-label="English Interview Practice home">
           <span class="brand-mark" aria-hidden="true"><span></span></span>
           <span>
             <span class="eyebrow">CIeNET · LOCAL PRACTICE</span>
-            <span class="brand-title">English STAR Practice</span>
+            <span class="brand-title">English Interview Practice</span>
           </span>
         </a>
         <div class="local-badge">
@@ -34,9 +34,9 @@
           <div class="sidebar-heading">
             <div>
               <p class="eyebrow">Practice library</p>
-              <h2>Choose a story</h2>
+              <h2>Choose a topic</h2>
             </div>
-            <span class="completion-count" id="completedCount">0 / 4</span>
+            <span class="completion-count" id="completedCount">0 / 9</span>
           </div>
 
           <div class="mode-switch" role="group" aria-label="Answer length">
@@ -44,11 +44,11 @@
             <button class="mode-button" type="button" data-mode="full">Full answer</button>
           </div>
 
-          <nav class="story-list" id="storyList" aria-label="STAR stories"></nav>
+          <nav class="story-list" id="storyList" aria-label="Interview topics"></nav>
 
           <div class="sidebar-note">
             <p class="eyebrow">Fast loop</p>
-            <p>Select a story, think for 10 seconds, then speak until the timer ends.</p>
+            <p>Select a topic, think for 10 seconds, then speak until the timer ends.</p>
             <button class="text-button" id="clearProgress" type="button">Reset local progress</button>
           </div>
         </aside>
@@ -97,19 +97,19 @@
 
             <div class="cue-grid" id="cueGrid" hidden>
               <article class="cue-card cue-s">
-                <span class="cue-label">S · Situation</span>
+                <span class="cue-label" id="cueLabelSituation">S · Situation</span>
                 <p id="cueSituation"></p>
               </article>
               <article class="cue-card cue-t">
-                <span class="cue-label">T · Task</span>
+                <span class="cue-label" id="cueLabelTask">T · Task</span>
                 <p id="cueTask"></p>
               </article>
               <article class="cue-card cue-a">
-                <span class="cue-label">A · Action</span>
+                <span class="cue-label" id="cueLabelAction">A · Action</span>
                 <p id="cueAction"></p>
               </article>
               <article class="cue-card cue-r">
-                <span class="cue-label">R · Result</span>
+                <span class="cue-label" id="cueLabelResult">R · Result</span>
                 <p id="cueResult"></p>
               </article>
             </div>
@@ -140,9 +140,9 @@
             </div>
             <form id="reviewForm">
               <div class="review-grid">
-                <label class="check-row"><input type="checkbox" name="situation" /> I set the situation.</label>
-                <label class="check-row"><input type="checkbox" name="action" /> I explained what I did.</label>
-                <label class="check-row"><input type="checkbox" name="result" /> I finished with a result.</label>
+                <label class="check-row"><input type="checkbox" name="situation" /> <span id="reviewSituationText">I set the situation.</span></label>
+                <label class="check-row"><input type="checkbox" name="action" /> <span id="reviewActionText">I explained what I did.</span></label>
+                <label class="check-row"><input type="checkbox" name="result" /> <span id="reviewResultText">I finished with a result.</span></label>
               </div>
               <div class="review-footer">
                 <label class="select-label" for="confidence">Confidence

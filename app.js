@@ -166,11 +166,204 @@ const stories = [
       "Hi, I'm Chien-Ya Lo. I'm a frontend engineer with over four years of experience, mainly working with the Vue ecosystem. I've worked across different domains, including language education, Vietnam real estate, AR interactive modules, and marketing websites. I'd like to share three project highlights. First, I led a Vue 2 to Vue 3 migration for a language learning platform, achieved 100% TypeScript coverage, and implemented CI/CD. Second, I built two systems for a Vietnam real estate company with a lean team, including the frontend UI, Chinese, English, and Vietnamese support, and key business workflows. Third, I built an AI-assisted workflow using Spec-Driven Development and reusable AI Agent Skills. CIeNET's international clients and cross-industry projects interest me. I believe my experience adapting to different domains and modernizing frontend systems would be a strong fit, and I'm excited to contribute to the team.",
     fullSample:
       "Hi, I'm Chien-Ya Lo. I'm a frontend engineer with over four years of experience, mainly working with the Vue ecosystem. I've worked across different domains, including a language education platform, Vietnam real estate systems, AR interactive modules, marketing campaign websites, and so on. There are three project highlights I'd like to mention. First, I led a Vue 2 to Vue 3 migration for a language learning platform, achieved one hundred percent TypeScript coverage, and implemented CI/CD to improve maintainability and deployment efficiency. Second, I built an internal management system and a customer system for a Vietnam real estate company from the ground up with a lean cross-functional team. I was responsible for all frontend UI implementation, multilingual support in Chinese, English, and Vietnamese, and key business workflows such as property, employee, customer, and transaction management. Third, I built an AI-assisted development workflow based on Spec-Driven Development and reusable AI Agent Skills to improve development consistency and efficiency. What interests me about CIeNET is its international client base and cross-industry projects. I believe my experience adapting to different domains and modernizing frontend systems would be a strong fit. I'm excited about the opportunity to join CIeNET and contribute my experience to the team."
+  },
+  {
+    id: "strengths",
+    number: "06",
+    title: "Strengths",
+    subtitle: "Ownership and delivery",
+    focus: "Strengths and working style",
+    framework: "answer",
+    fullDuration: 90,
+    cueLabels: {
+      situation: "Core strength",
+      task: "How it shows up",
+      action: "How I work",
+      result: "Value"
+    },
+    reviewPrompts: {
+      situation: "I stated my main strengths.",
+      action: "I explained how they show up in my work.",
+      result: "I connected them to team or project value."
+    },
+    questions: [
+      "What are your strengths?",
+      "What are you good at?"
+    ],
+    cues: {
+      situation: "Ownership, attention to timelines and quality, and an organization-wide perspective.",
+      task: "Deliver reliable results while supporting the team's overall goals.",
+      action: "Track progress, solve problems proactively, prioritize tasks, and consider the project's wider impact.",
+      result: "Timely delivery, stable quality, and decisions that support the project and team."
+    },
+    oneMinuteSections: {
+      "Core strength": "I would say I have three main strengths: ownership, attention to timelines and quality, and an organization-wide perspective.",
+      "How it shows up": "I actively track my responsibilities, and when problems come up, I try to solve them instead of waiting for someone else. I also prioritize my tasks and complete them within the expected schedule.",
+      "How I work": "When making decisions, I consider the team and the company's overall goals instead of focusing only on what is convenient for me.",
+      "Value": "This helps me deliver reliable results, maintain stable quality, and make decisions that support the project and the team as a whole."
+    },
+    fullSections: {
+      "Core strength": "I would say I have three main strengths. First, I take ownership of my work and make sure the final result meets the expected goals.",
+      "How it shows up": "I actively track the progress of my responsibilities, and when problems come up, I try to solve them instead of waiting for someone else. I care about timelines, so I prioritize my tasks and complete them within the expected schedule.",
+      "How I work": "At the same time, I do not want speed to come at the expense of quality. When making decisions, I also consider the team and the company's overall goals. I do not only focus on what is convenient for me; I try to choose the option that is best for the project and the team as a whole.",
+      "Value": "I believe this combination of ownership, time awareness, and an overall perspective helps me deliver reliable results and contribute to the team's success."
+    },
+    sample:
+      "I would say I have three main strengths: ownership, attention to timelines and quality, and an organization-wide perspective. I actively track my responsibilities, and when problems come up, I try to solve them instead of waiting for someone else. I also prioritize my tasks and complete them within the expected schedule. When making decisions, I consider the team and the company's overall goals instead of focusing only on what is convenient for me. This helps me deliver reliable results, maintain stable quality, and make decisions that support the project and the team as a whole.",
+    fullSample:
+      "I would say I have three main strengths. First, I take ownership of my work and make sure the final result meets the expected goals. I actively track the progress of my responsibilities, and when problems come up, I try to solve them instead of waiting for someone else. I care about timelines, so I prioritize my tasks and complete them within the expected schedule. At the same time, I do not want speed to come at the expense of quality. When making decisions, I also consider the team and the company's overall goals. I do not only focus on what is convenient for me; I try to choose the option that is best for the project and the team as a whole. I believe this combination of ownership, time awareness, and an overall perspective helps me deliver reliable results and contribute to the team's success."
+  },
+  {
+    id: "weakness",
+    number: "07",
+    title: "Weakness",
+    subtitle: "Assertive communication",
+    focus: "Growth area and improvement",
+    framework: "answer",
+    fullDuration: 90,
+    cueLabels: {
+      situation: "Area to improve",
+      task: "Potential challenge",
+      action: "Improvement plan",
+      result: "Progress"
+    },
+    reviewPrompts: {
+      situation: "I clearly described the area I am improving.",
+      action: "I explained the steps I am taking.",
+      result: "I ended with a constructive takeaway."
+    },
+    questions: [
+      "What is your biggest weakness?",
+      "What area are you working to improve?"
+    ],
+    cues: {
+      situation: "Working with colleagues who have a very assertive communication style or make decisions quickly.",
+      task: "Express a different opinion clearly and in time.",
+      action: "Prepare key points and explain the observation, potential impact, and recommendation.",
+      result: "Contribute more confidently while keeping the collaboration constructive."
+    },
+    oneMinuteSections: {
+      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly.",
+      "Potential challenge": "Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion.",
+      "Improvement plan": "To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation.",
+      "Progress": "If I do not fully express my thoughts in the moment, I follow up afterward so that my perspective can still be considered."
+    },
+    fullSections: {
+      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly.",
+      "Potential challenge": "Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. I realized that staying silent just to avoid slowing down the team is not always the best approach.",
+      "Improvement plan": "To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I need more time, I follow up after the discussion instead of leaving the issue unclear.",
+      "Progress": "This has helped me contribute more confidently while keeping the collaboration constructive."
+    },
+    sample:
+      "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I do not fully express my thoughts in the moment, I follow up afterward so that my perspective can still be considered.",
+    fullSample:
+      "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. I realized that staying silent just to avoid slowing down the team is not always the best approach. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I need more time, I follow up after the discussion instead of leaving the issue unclear. This has helped me contribute more confidently while keeping the collaboration constructive."
+  },
+  {
+    id: "career-goals",
+    number: "08",
+    title: "Career goals",
+    subtitle: "AI applications and user needs",
+    focus: "Long-term direction",
+    framework: "answer",
+    fullDuration: 90,
+    cueLabels: {
+      situation: "Career direction",
+      task: "What I want to build",
+      action: "Skills to develop",
+      result: "Long-term contribution"
+    },
+    reviewPrompts: {
+      situation: "I clearly stated my career direction.",
+      action: "I explained the skills I want to develop.",
+      result: "I connected my goals to future contributions."
+    },
+    questions: [
+      "What are your career goals?",
+      "Where do you see yourself in the future?"
+    ],
+    cues: {
+      situation: "A software engineering foundation and an interest in practical AI applications.",
+      task: "Build AI solutions that address real user and business problems.",
+      action: "Develop skills in requirements understanding, solution design, system integration, and cross-functional communication.",
+      result: "Gradually develop the core skills of an AI Application Architect or Forward Deployed Engineer."
+    },
+    oneMinuteSections: {
+      "Career direction": "My career plan is to continue strengthening my software engineering foundation while gradually building experience in designing and delivering AI-powered applications.",
+      "What I want to build": "To me, AI is not only about models or tools. I also care about the real problems users face and how they actually use a product.",
+      "Skills to develop": "I want to start from user needs and real-world contexts, and turn ambiguous problems into reliable, practical AI solutions that can evolve with user needs.",
+      "Long-term contribution": "In the medium to long term, I want to develop the core skills needed for roles such as an AI Application Architect or a Forward Deployed Engineer, while continuing to deliver meaningful results through real projects."
+    },
+    fullSections: {
+      "Career direction": "My career plan is to continue strengthening my software engineering foundation while gradually building experience in designing and delivering AI-powered applications.",
+      "What I want to build": "To me, AI is not only about models or tools. I also care about the real problems users face and how they actually use a product. I want to start from user needs and real-world contexts, and turn ambiguous problems into reliable, practical AI solutions that can evolve with user needs.",
+      "Skills to develop": "In the medium to long term, I want to develop the core skills needed for roles such as an AI Application Architect or a Forward Deployed Engineer. These skills include understanding user needs, designing solutions, integrating systems, communicating across teams, and bringing solutions into real-world use.",
+      "Long-term contribution": "I am not focused only on obtaining a specific title. At this stage, I want to keep building strong software engineering and implementation skills through real projects, deliver meaningful results, and gradually take on more responsibility for system architecture, technical decisions, and product delivery."
+    },
+    sample:
+      "My career plan is to continue strengthening my software engineering foundation while gradually building experience in designing and delivering AI-powered applications. To me, AI is not only about models or tools. I also care about the real problems users face and how they actually use a product. I want to start from user needs and real-world contexts, and turn ambiguous problems into reliable, practical AI solutions that can evolve with user needs. In the medium to long term, I want to develop the core skills needed for roles such as an AI Application Architect or a Forward Deployed Engineer, while continuing to deliver meaningful results through real projects.",
+    fullSample:
+      "My career plan is to continue strengthening my software engineering foundation while gradually building experience in designing and delivering AI-powered applications. To me, AI is not only about models or tools. I also care about the real problems users face and how they actually use a product. I want to start from user needs and real-world contexts, and turn ambiguous problems into reliable, practical AI solutions that can evolve with user needs. In the medium to long term, I want to develop the core skills needed for roles such as an AI Application Architect or a Forward Deployed Engineer. These skills include understanding user needs, designing solutions, integrating systems, communicating across teams, and bringing solutions into real-world use. I am not focused only on obtaining a specific title. At this stage, I want to keep building strong software engineering and implementation skills through real projects, deliver meaningful results, and gradually take on more responsibility for system architecture, technical decisions, and product delivery."
+  },
+  {
+    id: "next-role",
+    number: "09",
+    title: "Next role",
+    subtitle: "International team and AI applications",
+    focus: "What I am looking for next",
+    framework: "answer",
+    fullDuration: 90,
+    cueLabels: {
+      situation: "Work environment",
+      task: "Role focus",
+      action: "How I can contribute",
+      result: "Value I want to create"
+    },
+    reviewPrompts: {
+      situation: "I described the work environment I am looking for.",
+      action: "I explained the kind of work I want to do.",
+      result: "I connected my expectations to the value I can create."
+    },
+    questions: [
+      "What are you looking for in your next role?",
+      "What are you looking for in your next job?"
+    ],
+    cues: {
+      situation: "An international and collaborative team with people from different countries and professional backgrounds.",
+      task: "Contribute to software engineering work and AI application projects.",
+      action: "Understand user and business needs, participate in solution design, system integration, and product delivery.",
+      result: "Turn technology into products that people can use to solve real problems."
+    },
+    oneMinuteSections: {
+      "Work environment": "In my next role, I would like to join a team with an international and collaborative working environment, where I can work with people from different countries and professional backgrounds.",
+      "Role focus": "In addition to continuing to apply my software engineering skills, I would like to contribute to projects involving AI applications.",
+      "How I can contribute": "I am especially interested in understanding user and business needs, and participating in solution design, system integration, and product delivery.",
+      "Value I want to create": "I hope to apply my strengths in an international team and help turn technology into products that people can actually use and that solve real problems."
+    },
+    fullSections: {
+      "Work environment": "In my next role, I would like to join a team with an international and collaborative working environment, where I can work with people from different countries and professional backgrounds.",
+      "Role focus": "In addition to continuing to apply my software engineering skills, I would like to contribute to projects involving AI applications. I am especially interested in work that connects technology with real user and business needs.",
+      "How I can contribute": "I would like to participate in the process from understanding user and business needs to solution design, system integration, and product delivery. I also bring a strong sense of ownership, attention to timelines, and a focus on delivery quality.",
+      "Value I want to create": "I hope to apply these strengths in an international team and help turn technology into products that people can actually use and that solve real problems."
+    },
+    sample:
+      "In my next role, I would like to join a team with an international and collaborative working environment, where I can work with people from different countries and professional backgrounds. In addition to continuing to apply my software engineering skills, I would like to contribute to projects involving AI applications. I am especially interested in understanding user and business needs, and participating in solution design, system integration, and product delivery. I hope to apply my strengths in an international team and help turn technology into products that people can actually use and that solve real problems.",
+    fullSample:
+      "In my next role, I would like to join a team with an international and collaborative working environment, where I can work with people from different countries and professional backgrounds. In addition to continuing to apply my software engineering skills, I would like to contribute to projects involving AI applications. I am especially interested in work that connects technology with real user and business needs. I would like to participate in the process from understanding user and business needs to solution design, system integration, and product delivery. I also bring a strong sense of ownership, attention to timelines, and a focus on delivery quality. I hope to apply these strengths in an international team and help turn technology into products that people can actually use and that solve real problems."
   }
 ];
 
+const questionPool = stories.flatMap((story) =>
+  story.questions.map((question, questionIndex) => ({
+    storyId: story.id,
+    questionIndex,
+    question
+  }))
+);
+
 const defaultState = {
   storyId: "vietnam",
+  randomMode: false,
   mode: "one",
   questionIndex: 0,
   phase: "idle",
@@ -199,6 +392,10 @@ const elements = {
   resetTimer: document.querySelector("#resetTimer"),
   toggleCues: document.querySelector("#toggleCues"),
   cueGrid: document.querySelector("#cueGrid"),
+  cueLabelSituation: document.querySelector("#cueLabelSituation"),
+  cueLabelTask: document.querySelector("#cueLabelTask"),
+  cueLabelAction: document.querySelector("#cueLabelAction"),
+  cueLabelResult: document.querySelector("#cueLabelResult"),
   cueSituation: document.querySelector("#cueSituation"),
   cueTask: document.querySelector("#cueTask"),
   cueAction: document.querySelector("#cueAction"),
@@ -208,6 +405,9 @@ const elements = {
   sampleAnswer: document.querySelector("#sampleAnswer"),
   reviewPanel: document.querySelector("#reviewPanel"),
   reviewForm: document.querySelector("#reviewForm"),
+  reviewSituationText: document.querySelector("#reviewSituationText"),
+  reviewActionText: document.querySelector("#reviewActionText"),
+  reviewResultText: document.querySelector("#reviewResultText"),
   saveStatus: document.querySelector("#saveStatus"),
   stepPrepare: document.querySelector("#stepPrepare"),
   stepSpeak: document.querySelector("#stepSpeak"),
@@ -287,11 +487,22 @@ function formatTime(seconds) {
 }
 
 function renderStoryList() {
-  elements.storyList.innerHTML = stories.map((story) => {
+  const randomSelected = state.randomMode ? " is-selected" : "";
+  const randomQuestionButton = `
+    <button class="story-item random-story${randomSelected}" type="button" data-random="true" aria-pressed="${state.randomMode}" aria-label="Choose a random interview question">
+      <span class="story-number">↻</span>
+      <span class="story-body">
+        <span class="story-title">Random question</span>
+        <span class="story-subtitle">Pick from all questions</span>
+      </span>
+      <span class="story-count">Try</span>
+    </button>`;
+
+  const storyButtons = stories.map((story) => {
     const count = history.filter((item) => item.storyId === story.id).length;
-    const selected = story.id === state.storyId ? " is-selected" : "";
+    const selected = !state.randomMode && story.id === state.storyId ? " is-selected" : "";
     return `
-      <button class="story-item${selected}" type="button" data-story="${story.id}" aria-pressed="${story.id === state.storyId}">
+      <button class="story-item${selected}" type="button" data-story="${story.id}" aria-pressed="${!state.randomMode && story.id === state.storyId}">
         <span class="story-number">${story.number}</span>
         <span class="story-body">
           <span class="story-title">${story.title}</span>
@@ -300,6 +511,8 @@ function renderStoryList() {
         <span class="story-count">${count ? `${count}x` : "Start"}</span>
       </button>`;
   }).join("");
+
+  elements.storyList.innerHTML = randomQuestionButton + storyButtons;
 
   const completed = stories.filter((story) => history.some((item) => item.storyId === story.id)).length;
   elements.completedCount.textContent = `${completed} / ${stories.length}`;
@@ -315,14 +528,32 @@ function renderModeButtons() {
 function renderQuestion() {
   const story = getStory();
   const durationLabel = formatDurationLabel(getDuration());
+  const cueLabels = story.cueLabels || {
+    situation: "S · Situation",
+    task: "T · Task",
+    action: "A · Action",
+    result: "R · Result"
+  };
+  const reviewPrompts = story.reviewPrompts || {
+    situation: "I set the situation.",
+    action: "I explained what I did.",
+    result: "I finished with a result."
+  };
   elements.modeLabel.textContent = state.mode === "one" ? "1-MINUTE DRILL" : "FULL ANSWER";
   elements.promptTitle.textContent = getQuestion();
   elements.promptMeta.textContent = `${story.title} · ${story.subtitle} · ${durationLabel}`;
   elements.storyFocus.textContent = story.focus;
+  elements.cueLabelSituation.textContent = cueLabels.situation;
+  elements.cueLabelTask.textContent = cueLabels.task;
+  elements.cueLabelAction.textContent = cueLabels.action;
+  elements.cueLabelResult.textContent = cueLabels.result;
   elements.cueSituation.textContent = story.cues.situation;
   elements.cueTask.textContent = story.cues.task;
   elements.cueAction.textContent = story.cues.action;
   elements.cueResult.textContent = story.cues.result;
+  elements.reviewSituationText.textContent = reviewPrompts.situation;
+  elements.reviewActionText.textContent = reviewPrompts.action;
+  elements.reviewResultText.textContent = reviewPrompts.result;
   renderSampleAnswer();
   elements.sampleAnswer.hidden = !state.showAnswer;
   elements.showAnswer.textContent = state.showAnswer ? "Hide sample answer" : "Show sample answer";
@@ -343,12 +574,13 @@ function renderSteps() {
 }
 
 function renderTimer() {
+  const isAnswerTopic = getStory().framework === "answer";
   const total = state.phase === "prep" ? 10 : getDuration();
   const progress = state.phase === "review" ? 100 : Math.min(100, ((total - state.secondsLeft) / total) * 100);
   const labels = {
     idle: ["Ready", "Take a breath. You will have 10 seconds to prepare before the speaking timer starts."],
-    prep: ["Prepare", "Think of one concrete example. The speaking timer starts when this reaches zero."],
-    speak: ["Speak", "Follow Situation, Task, Action, and Result. You can finish early if you are ready."],
+    prep: ["Prepare", isAnswerTopic ? "Organize your main point and supporting details. The speaking timer starts when this reaches zero." : "Think of one concrete example. The speaking timer starts when this reaches zero."],
+    speak: ["Speak", isAnswerTopic ? "Use the key points to give a clear and specific answer. You can finish early if you are ready." : "Follow Situation, Task, Action, and Result. You can finish early if you are ready."],
     review: ["Review", "Mark what you covered, save the attempt, and try the story again if needed."]
   };
   const [phase, instruction] = labels[state.phase];
@@ -440,7 +672,16 @@ function startOrFinish() {
 
 function chooseStory(storyId) {
   state.storyId = storyId;
+  state.randomMode = false;
   state.questionIndex = 0;
+  resetTimer();
+}
+
+function chooseRandomQuestion() {
+  const randomQuestion = questionPool[Math.floor(Math.random() * questionPool.length)];
+  state.randomMode = true;
+  state.storyId = randomQuestion.storyId;
+  state.questionIndex = randomQuestion.questionIndex;
   resetTimer();
 }
 
@@ -450,8 +691,17 @@ function chooseMode(mode) {
 }
 
 function nextQuestion() {
+  if (state.randomMode) {
+    chooseRandomQuestion();
+    return;
+  }
+
   const story = getStory();
-  state.questionIndex = (state.questionIndex + 1) % story.questions.length;
+  let nextIndex = Math.floor(Math.random() * story.questions.length);
+  if (story.questions.length > 1 && nextIndex === state.questionIndex) {
+    nextIndex = (nextIndex + 1) % story.questions.length;
+  }
+  state.questionIndex = nextIndex;
   resetTimer();
 }
 
@@ -504,6 +754,12 @@ function clearProgress() {
 }
 
 elements.storyList.addEventListener("click", (event) => {
+  const randomButton = event.target.closest("[data-random]");
+  if (randomButton) {
+    chooseRandomQuestion();
+    return;
+  }
+
   const button = event.target.closest("[data-story]");
   if (button) chooseStory(button.dataset.story);
 });

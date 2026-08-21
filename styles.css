@@ -288,6 +288,20 @@ h2 {
   background: #e6fffa;
 }
 
+.story-item.random-story {
+  border-color: #fed7aa;
+  background: #fff7ed;
+}
+
+.story-item.random-story:hover {
+  border-color: var(--color-accent);
+}
+
+.story-item.random-story .story-number {
+  background: var(--color-accent);
+  color: var(--color-on-primary);
+}
+
 .story-number {
   display: grid;
   width: 30px;
