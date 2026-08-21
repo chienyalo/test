@@ -217,7 +217,7 @@ const stories = [
     id: "weakness",
     number: "07",
     title: "Weakness",
-    subtitle: "Assertive communication",
+    subtitle: "Strong opinions and feedback",
     focus: "Growth area and improvement",
     framework: "answer",
     fullDuration: 90,
@@ -237,27 +237,27 @@ const stories = [
       "What area are you working to improve?"
     ],
     cues: {
-      situation: "Working with colleagues who have a very assertive communication style or make decisions quickly.",
+      situation: "Working with colleagues who have strong opinions and are not always open to feedback.",
       task: "Express a different opinion clearly and in time.",
       action: "Prepare key points and explain the observation, potential impact, and recommendation.",
       result: "Contribute more confidently while keeping the collaboration constructive."
     },
     oneMinuteSections: {
-      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly.",
+      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have strong opinions and are not always open to feedback.",
       "Potential challenge": "Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion.",
       "Improvement plan": "To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation.",
       "Progress": "If I do not fully express my thoughts in the moment, I follow up afterward so that my perspective can still be considered."
     },
     fullSections: {
-      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly.",
+      "Area to improve": "One area I am working to improve is how I communicate with colleagues who have strong opinions and are not always open to feedback.",
       "Potential challenge": "Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. I realized that staying silent just to avoid slowing down the team is not always the best approach.",
       "Improvement plan": "To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I need more time, I follow up after the discussion instead of leaving the issue unclear.",
       "Progress": "This has helped me contribute more confidently while keeping the collaboration constructive."
     },
-    sample:
-      "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I do not fully express my thoughts in the moment, I follow up afterward so that my perspective can still be considered.",
-    fullSample:
-      "One area I am working to improve is how I communicate with colleagues who have a very assertive communication style or make decisions quickly. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. I realized that staying silent just to avoid slowing down the team is not always the best approach. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I need more time, I follow up after the discussion instead of leaving the issue unclear. This has helped me contribute more confidently while keeping the collaboration constructive."
+        sample:
+          "One area I am working to improve is how I communicate with colleagues who have strong opinions and are not always open to feedback. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I do not fully express my thoughts in the moment, I follow up afterward so that my perspective can still be considered.",
+        fullSample:
+          "One area I am working to improve is how I communicate with colleagues who have strong opinions and are not always open to feedback. Sometimes I need a little time to organize my thoughts, so I may not immediately express a different opinion during the discussion. I realized that staying silent just to avoid slowing down the team is not always the best approach. To improve, I prepare my key points in advance. During the discussion, I try to clearly explain my observation, the potential impact, and my recommendation. If I need more time, I follow up after the discussion instead of leaving the issue unclear. This has helped me contribute more confidently while keeping the collaboration constructive."
   },
   {
     id: "career-goals",
