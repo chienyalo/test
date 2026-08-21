@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A local-only English STAR interview practice tool for CIeNET interview preparation."
+    />
+    <title>English STAR Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to practice</a>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#main-content" aria-label="English STAR Practice home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>
+            <span class="eyebrow">CIeNET · LOCAL PRACTICE</span>
+            <span class="brand-title">English STAR Practice</span>
+          </span>
+        </a>
+        <div class="local-badge">
+          <span class="status-dot" aria-hidden="true"></span>
+          Local only · autosaved
+        </div>
+      </header>
+
+      <div class="app-layout">
+        <aside class="sidebar" aria-label="Practice library">
+          <div class="sidebar-heading">
+            <div>
+              <p class="eyebrow">Practice library</p>
+              <h2>Choose a story</h2>
+            </div>
+            <span class="completion-count" id="completedCount">0 / 4</span>
+          </div>
+
+          <div class="mode-switch" role="group" aria-label="Answer length">
+            <button class="mode-button is-active" type="button" data-mode="one">1 minute</button>
+            <button class="mode-button" type="button" data-mode="full">Full answer</button>
+          </div>
+
+          <nav class="story-list" id="storyList" aria-label="STAR stories"></nav>
+
+          <div class="sidebar-note">
+            <p class="eyebrow">Fast loop</p>
+            <p>Select a story, think for 10 seconds, then speak until the timer ends.</p>
+            <button class="text-button" id="clearProgress" type="button">Reset local progress</button>
+          </div>
+        </aside>
+
+        <main class="workspace" id="main-content">
+          <section class="workspace-heading" aria-labelledby="promptTitle">
+            <div>
+              <p class="eyebrow" id="modeLabel">1-MINUTE DRILL</p>
+              <h1 id="promptTitle">Tell me about a challenging project.</h1>
+              <p class="prompt-meta" id="promptMeta">Vietnam real estate · MVP and trade-offs · 60 seconds</p>
+            </div>
+            <button class="button secondary" id="shuffleQuestion" type="button">New prompt</button>
+          </section>
+
+          <div class="stepper" aria-label="Practice steps">
+            <span class="step is-active" id="stepPrepare"><b>01</b> Prepare</span>
+            <span class="step" id="stepSpeak"><b>02</b> Speak</span>
+            <span class="step" id="stepReview"><b>03</b> Review</span>
+          </div>
+
+          <section class="practice-card" aria-labelledby="timerHeading">
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">Speak with structure</p>
+                <h2 id="timerHeading">Use the cues, not a script.</h2>
+              </div>
+              <button class="button ghost" id="toggleCues" type="button" aria-expanded="false">Show cues</button>
+            </div>
+
+            <div class="timer-layout">
+              <div class="timer-ring" id="timerRing" aria-live="polite">
+                <span class="timer-value" id="timerValue">01:00</span>
+                <span class="timer-phase" id="phaseText">Ready</span>
+              </div>
+              <div class="timer-copy">
+                <p class="timer-instruction" id="timerInstruction">
+                  Take a breath. You will have 10 seconds to prepare before the speaking timer starts.
+                </p>
+                <div class="button-row">
+                  <button class="button primary" id="primaryAction" type="button">Start 10s prep</button>
+                  <button class="button secondary" id="resetTimer" type="button">Reset</button>
+                </div>
+                <p class="keyboard-hint">Space to start or finish · R to reset</p>
+              </div>
+            </div>
+
+            <div class="cue-grid" id="cueGrid" hidden>
+              <article class="cue-card cue-s">
+                <span class="cue-label">S · Situation</span>
+                <p id="cueSituation"></p>
+              </article>
+              <article class="cue-card cue-t">
+                <span class="cue-label">T · Task</span>
+                <p id="cueTask"></p>
+              </article>
+              <article class="cue-card cue-a">
+                <span class="cue-label">A · Action</span>
+                <p id="cueAction"></p>
+              </article>
+              <article class="cue-card cue-r">
+                <span class="cue-label">R · Result</span>
+                <p id="cueResult"></p>
+              </article>
+            </div>
+          </section>
+
+          <section class="prompt-card" aria-labelledby="promptCardHeading">
+            <div class="prompt-card-heading">
+              <div>
+                <p class="eyebrow">Your answer should land on</p>
+                <h2 id="promptCardHeading">One clear decision and one clear result.</h2>
+              </div>
+              <span class="story-focus" id="storyFocus">MVP and trade-offs</span>
+            </div>
+            <div class="prompt-actions">
+              <button class="button secondary" id="showAnswer" type="button" aria-expanded="false">Show sample answer</button>
+              <button class="button secondary" id="readSample" type="button">Read sample aloud</button>
+            </div>
+            <div class="sample-answer" id="sampleAnswer" hidden></div>
+          </section>
+
+          <section class="review-card" id="reviewPanel" aria-labelledby="reviewHeading" hidden>
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">Quick review</p>
+                <h2 id="reviewHeading">What did you cover?</h2>
+              </div>
+              <span class="review-time">Saved on this device</span>
+            </div>
+            <form id="reviewForm">
+              <div class="review-grid">
+                <label class="check-row"><input type="checkbox" name="situation" /> I set the situation.</label>
+                <label class="check-row"><input type="checkbox" name="action" /> I explained what I did.</label>
+                <label class="check-row"><input type="checkbox" name="result" /> I finished with a result.</label>
+              </div>
+              <div class="review-footer">
+                <label class="select-label" for="confidence">Confidence
+                  <select id="confidence" name="confidence">
+                    <option value="3">3 · Okay</option>
+                    <option value="4">4 · Good</option>
+                    <option value="5">5 · Ready</option>
+                    <option value="2">2 · Needs work</option>
+                    <option value="1">1 · Start again</option>
+                  </select>
+                </label>
+                <button class="button accent" type="submit">Save practice</button>
+              </div>
+              <p class="save-status" id="saveStatus" aria-live="polite"></p>
+            </form>
+          </section>
+
+          <footer class="workspace-footer">
+            <span id="sessionCount">0 practices saved</span>
+            <span>Nothing leaves this browser.</span>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
